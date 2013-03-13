@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<cloudbees-web-app xmlns="http://www.cloudbees.com/xml/webapp/1">
+    <!-- Application ID (formatted CB_ACCOUNT/APPNAME) -->
+    <appid>k70/nodb</appid>
+
+</cloudbees-web-app>

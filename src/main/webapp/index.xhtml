@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/templates/default.xhtml">
+    <ui:define name="content">
+
+        <h:form id="bv">
+            <h2>Hello</h2>
+            A trivial application without a database connection.
+
+            <h:panelGrid columns="2">
+                <p:outputLabel value="Your name"/>
+                <p:inputText title="Your name" label="Name" value="#{helloController.name}"/>
+            </h:panelGrid>
+
+            <p:commandButton label="Say hello" value="Say hello" action="#{helloController.sayHello}"/>
+
+        </h:form>
+    </ui:define>
+</ui:composition>
